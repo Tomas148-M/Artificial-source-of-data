@@ -70,7 +70,7 @@ namespace Car_unit_simulator
                 real_time.Text = DateTime.Now.ToString("HH:mm:ss");
             }));
         }
-        //Aktualzace hodnot ve formmu
+        //Aktualzace hodnot ve formu
         public void Update(string obj,string value)
         {
             switch (obj)
@@ -133,7 +133,7 @@ namespace Car_unit_simulator
                     break;
             }
         }
-        // Pridani zazaznamu do listu historie zprav
+        // Pridani zaznamu do listu historie zprav
         public void list(string type)
         {
             try
